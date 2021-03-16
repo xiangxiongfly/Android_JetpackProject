@@ -1,0 +1,6 @@
+include ':viewbindingdemo'
+include ':viewmodeldemo'
+include ':livedatademo'
+include ':lifecycledemo'
+include ':app'
+rootProject.name = "Jetpack"
