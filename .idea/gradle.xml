@@ -15,6 +15,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/lifecycledemo" />
             <option value="$PROJECT_DIR$/livedatademo" />
+            <option value="$PROJECT_DIR$/mvvmdemo" />
             <option value="$PROJECT_DIR$/viewbindingdemo" />
             <option value="$PROJECT_DIR$/viewmodeldemo" />
           </set>
