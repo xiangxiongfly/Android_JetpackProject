@@ -19,12 +19,9 @@ public class IncludeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         context = this;
         ActivityIncludeBinding binding = ActivityIncludeBinding.inflate(getLayoutInflater());
-        DetailLayoutBinding detailBinding = DetailLayoutBinding.bind(binding.getRoot());
-
         setContentView(binding.getRoot());
 
-        detailBinding.ivDetail.setImageResource(R.mipmap.ic_launcher);
-
+        //不带merge标签使用
         binding.titleBar.title.setText("这是一个标题");
         binding.titleBar.back.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -39,6 +36,8 @@ public class IncludeActivity extends AppCompatActivity {
             }
         });
 
-
+        //带merge标签使用
+        DetailLayoutBinding detailBinding = DetailLayoutBinding.bind(binding.getRoot());
+        detailBinding.ivDetail.setImageResource(R.mipmap.ic_launcher);
     }
 }

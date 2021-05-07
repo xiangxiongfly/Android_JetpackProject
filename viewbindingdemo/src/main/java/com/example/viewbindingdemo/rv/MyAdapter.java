@@ -1,4 +1,4 @@
-package com.example.viewbindingdemo;
+package com.example.viewbindingdemo.rv;
 
 import android.content.Context;
 import android.view.LayoutInflater;

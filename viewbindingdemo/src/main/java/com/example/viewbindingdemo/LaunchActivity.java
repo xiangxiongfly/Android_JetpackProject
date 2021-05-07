@@ -6,6 +6,9 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.viewbindingdemo.base.FirstActivity;
+import com.example.viewbindingdemo.rv.RvActivity;
+
 public class LaunchActivity extends AppCompatActivity {
 
     @Override
@@ -28,5 +31,9 @@ public class LaunchActivity extends AppCompatActivity {
 
     public void gotoInclude(View view) {
         startActivity(new Intent(this, IncludeActivity.class));
+    }
+
+    public void gotoBaseActivity(View view){
+        startActivity(new Intent(this, FirstActivity.class));
     }
 }

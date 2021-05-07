@@ -36,36 +36,36 @@ public class MyFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         //方式一
-//        binding = FragmentMyBinding.inflate(getLayoutInflater());
-//        return binding.getRoot();
+        binding = FragmentMyBinding.inflate(getLayoutInflater(), container, false);
+        return binding.getRoot();
 
         //方式二
-        return inflater.inflate(R.layout.fragment_my, container, false);
+//        return inflater.inflate(R.layout.fragment_my, container, false);
     }
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         //方式一
-//        binding.tvName.setText("Hello ViewBinding");
-//        binding.ivAvatar.setImageResource(R.mipmap.ic_launcher);
-//        binding.btn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Toast.makeText(context, "hello world", Toast.LENGTH_SHORT).show();
-//            }
-//        });
-
-        //方式二
-        FragmentMyBinding bind = FragmentMyBinding.bind(view);
-        bind.tvName.setText("Hello ViewBinding");
-        bind.ivAvatar.setImageResource(R.mipmap.ic_launcher);
-        bind.btn.setOnClickListener(new View.OnClickListener() {
+        binding.tvName.setText("Hello ViewBinding");
+        binding.ivAvatar.setImageResource(R.mipmap.ic_launcher);
+        binding.btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(context, "hello world", Toast.LENGTH_SHORT).show();
             }
         });
+
+        //方式二
+//        FragmentMyBinding bind = FragmentMyBinding.bind(view);
+//        bind.tvName.setText("Hello ViewBinding");
+//        bind.ivAvatar.setImageResource(R.mipmap.ic_launcher);
+//        bind.btn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(context, "hello world", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
     @Override

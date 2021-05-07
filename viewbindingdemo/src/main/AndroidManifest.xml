@@ -25,11 +25,14 @@
             android:name=".FrgActivity"
             android:label="Fragment中使用ViewBinding" />
         <activity
-            android:name=".RvActivity"
+            android:name=".rv.RvActivity"
             android:label="RecyclerView中使用ViewBinding" />
         <activity
             android:name=".IncludeActivity"
             android:label="include中使用ViewBinding" />
+        <activity
+            android:name=".base.FirstActivity"
+            android:label="封装" />
     </application>
 
 </manifest>
