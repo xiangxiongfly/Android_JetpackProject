@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_navigation"
+    app:startDestination="@id/welcome">
+
+    <fragment
+        android:id="@+id/welcome"
+        android:name="com.example.navigationdemo.login.WelcomeFragment"
+        android:label="欢迎"
+        tools:layout="@layout/fragment_welcome">
+        <action
+            android:id="@+id/action_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_to_register"
+            app:destination="@id/register"
+            app:enterAnim="@anim/common_slide_in_right"
+            app:exitAnim="@anim/common_slide_out_left"
+            app:popEnterAnim="@anim/common_slide_in_left"
+            app:popExitAnim="@anim/common_slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/login"
+        android:name="com.example.navigationdemo.login.LoginFragment"
+        android:label="登陆"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/register"
+        android:name="com.example.navigationdemo.login.RegisterFragment"
+        android:label="注册"
+        tools:layout="@layout/fragment_register">
+        <!--SafeArgs-->
+        <argument
+            android:name="data"
+            android:defaultValue="default"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
