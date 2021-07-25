@@ -4,5 +4,6 @@ include ':viewmodeldemo'
 include ':livedatademo'
 include ':lifecycledemo'
 include ':app'
-rootProject.name = "Jetpack"
 include ':navigationdemo'
+include ':hiltdemo'
+rootProject.name = "Jetpack"
