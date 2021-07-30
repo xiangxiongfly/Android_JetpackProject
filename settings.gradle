@@ -7,3 +7,4 @@ include ':app'
 include ':navigationdemo'
 include ':hiltdemo'
 rootProject.name = "Jetpack"
+include ':appstartupdemo'
