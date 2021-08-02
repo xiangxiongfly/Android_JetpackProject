@@ -2,6 +2,8 @@
 buildscript {
     ext {
         kotlin_version = '1.5.10'
+        ktx_version = '1.5.0'
+
         hiltVersion = "2.36"
         startupVersion = "1.0.0"
     }

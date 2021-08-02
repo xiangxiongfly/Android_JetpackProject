@@ -1,59 +1,53 @@
-package com.example.viewbindingdemo.base;
+package com.example.viewbindingdemo.base
 
-import android.content.Context;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.content.Context
+import android.os.Bundle
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.fragment.app.Fragment
+import androidx.viewbinding.ViewBinding
+import java.lang.reflect.ParameterizedType
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.fragment.app.Fragment;
-import androidx.viewbinding.ViewBinding;
+abstract class BaseBindingFragment<VB : ViewBinding> : Fragment() {
 
-import java.lang.reflect.Method;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
+    protected var mBinding: VB? = null
 
-public abstract class BaseFragment<VB extends ViewBinding> extends Fragment {
-    protected VB viewBinding;
-    protected Context mContext;
-    protected View mRootView;
+    protected lateinit var mContext: Context
 
-    @Override
-    public void onAttach(@NonNull Context context) {
-        super.onAttach(context);
-        mContext = context;
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+        mContext = context
     }
 
-    @Nullable
-    @Override
-    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        Type type = this.getClass().getGenericSuperclass();
-        if (type instanceof ParameterizedType) {
-            Class<VB> clz = (Class<VB>) ((ParameterizedType) type).getActualTypeArguments()[0];
-            try {
-                Method method = clz.getMethod("inflate", LayoutInflater.class, ViewGroup.class, boolean.class);
-                viewBinding = (VB) method.invoke(null, inflater, container, false);
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        val type = javaClass.genericSuperclass
+        if (type is ParameterizedType) {
+            val clz = type.actualTypeArguments[0] as Class<VB>
+            val method = clz.getMethod(
+                "inflate",
+                LayoutInflater::class.java,
+                ViewGroup::class.java,
+                Boolean::class.javaPrimitiveType
+            )
+            mBinding = method.invoke(null, inflater, container, false) as VB
         }
-        return viewBinding.getRoot();
+        return mBinding!!.root
     }
 
-    @Override
-    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        mRootView = view;
-        initView();
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        initView(savedInstanceState)
     }
 
-    protected abstract void initView();
+    abstract fun initView(savedInstanceState: Bundle?)
 
-    @Override
-    public void onDestroyView() {
-        super.onDestroyView();
-        viewBinding = null;
+    override fun onDestroyView() {
+        super.onDestroyView()
+        mBinding = null
     }
 }

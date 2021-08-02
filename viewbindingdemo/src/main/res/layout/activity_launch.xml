@@ -34,6 +34,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="gotoBaseActivity"
-        android:text="封装" />
+        android:text="基类封装" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="gotoBaseActivity2"
+        android:text="封装(委托实现)" />
 
 </LinearLayout>

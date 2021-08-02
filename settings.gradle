@@ -1,4 +1,3 @@
-include ':mvvmdemo'
 include ':viewbindingdemo'
 include ':viewmodeldemo'
 include ':livedatademo'

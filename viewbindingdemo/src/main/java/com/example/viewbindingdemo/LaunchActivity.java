@@ -7,6 +7,7 @@ import android.view.View;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.viewbindingdemo.base.FirstActivity;
+import com.example.viewbindingdemo.base2.SecondActivity;
 import com.example.viewbindingdemo.rv.RvActivity;
 
 public class LaunchActivity extends AppCompatActivity {
@@ -33,7 +34,11 @@ public class LaunchActivity extends AppCompatActivity {
         startActivity(new Intent(this, IncludeActivity.class));
     }
 
-    public void gotoBaseActivity(View view){
+    public void gotoBaseActivity(View view) {
         startActivity(new Intent(this, FirstActivity.class));
+    }
+
+    public void gotoBaseActivity2(View view) {
+        startActivity(new Intent(this, SecondActivity.class));
     }
 }

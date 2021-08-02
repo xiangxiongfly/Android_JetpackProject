@@ -1,42 +1,30 @@
-package com.example.viewbindingdemo.base;
+package com.example.viewbindingdemo.base
 
-import android.content.Context;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.View;
+import android.content.Context
+import android.os.Bundle
+import android.view.LayoutInflater
+import androidx.appcompat.app.AppCompatActivity
+import androidx.viewbinding.ViewBinding
+import java.lang.reflect.ParameterizedType
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.viewbinding.ViewBinding;
+abstract class BaseBindingActivity<VB : ViewBinding> : AppCompatActivity() {
 
-import java.lang.reflect.Method;
-import java.lang.reflect.ParameterizedType;
-import java.lang.reflect.Type;
+    protected lateinit var mBinding: VB
 
-public abstract class BaseActivity<VB extends ViewBinding> extends AppCompatActivity {
-    protected VB viewBinding;
-    protected Context mContext;
-    protected View mRootView;
+    protected lateinit var mContext: Context
 
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        mContext = this;
-        Type type = this.getClass().getGenericSuperclass();
-        if (type instanceof ParameterizedType) {
-            Class<VB> clz = (Class<VB>) ((ParameterizedType) type).getActualTypeArguments()[0];
-            try {
-                Method method = clz.getMethod("inflate", LayoutInflater.class);
-                viewBinding = (VB) method.invoke(null, getLayoutInflater());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            mRootView = viewBinding.getRoot();
-            setContentView(mRootView);
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        mContext = this
+        val type = javaClass.genericSuperclass
+        if (type is ParameterizedType) {
+            val clz = type.actualTypeArguments[0] as Class<VB>
+            val method = clz.getMethod("inflate", LayoutInflater::class.java)
+            mBinding = method.invoke(null, layoutInflater) as VB
+            setContentView(mBinding.root)
         }
-        initView();
+        initView(savedInstanceState)
     }
 
-    protected abstract void initView();
-
+    protected abstract fun initView(savedInstanceState: Bundle?)
 }

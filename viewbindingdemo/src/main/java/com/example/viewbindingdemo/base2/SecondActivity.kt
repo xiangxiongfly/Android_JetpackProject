@@ -1,32 +1,30 @@
-package com.example.viewbindingdemo.base
+package com.example.viewbindingdemo.base2
 
 import android.os.Bundle
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.viewbindingdemo.R
-import com.example.viewbindingdemo.databinding.ActivityFirstBinding
+import com.example.viewbindingdemo.databinding.ActivitySecondBinding
 import com.example.viewbindingdemo.databinding.DetailLayoutBinding
+import com.example.viewbindingdemo.toast
+import com.hi.dhl.jdatabinding.binding
 
-class FirstActivity : BaseBindingActivity<ActivityFirstBinding>() {
+class SecondActivity : AppCompatActivity() {
+
+    private val mBinding: ActivitySecondBinding by binding()
 
     private lateinit var detailLayoutBinding: DetailLayoutBinding
 
-    override fun initView(savedInstanceState: Bundle?) {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
         mBinding.textView.text = "Hello World"
 
         mBinding.titleBar.title.text = "这是一个标题"
         mBinding.titleBar.back.setOnClickListener {
-            Toast.makeText(
-                this@FirstActivity,
-                "返回",
-                Toast.LENGTH_SHORT
-            ).show()
+            toast("返回")
         }
         mBinding.titleBar.confirm.setOnClickListener {
-            Toast.makeText(
-                this@FirstActivity,
-                "确定",
-                Toast.LENGTH_SHORT
-            ).show()
+            toast("确定")
         }
 
         detailLayoutBinding = DetailLayoutBinding.bind(mBinding.root)

@@ -44,7 +44,7 @@
 
     <fragment
         android:id="@+id/FirstFragment"
-        android:name="com.example.viewbindingdemo.base.FirstFragment"
+        android:name="com.example.viewbindingdemo.base2.SecondFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
