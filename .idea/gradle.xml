@@ -12,11 +12,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/MeterialDesign" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/appstartupdemo" />
+            <option value="$PROJECT_DIR$/flow" />
             <option value="$PROJECT_DIR$/hiltdemo" />
             <option value="$PROJECT_DIR$/lifecycledemo" />
             <option value="$PROJECT_DIR$/livedatademo" />
+            <option value="$PROJECT_DIR$/mvvm_retrofit_coroutines" />
+            <option value="$PROJECT_DIR$/mvvm_retrofit_coroutines_flow" />
+            <option value="$PROJECT_DIR$/mvvm_simple" />
             <option value="$PROJECT_DIR$/navigationdemo" />
             <option value="$PROJECT_DIR$/viewbindingdemo" />
             <option value="$PROJECT_DIR$/viewmodeldemo" />

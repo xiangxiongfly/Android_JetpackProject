@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_slide_in_left.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_slide_in_left.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_slide_in_right.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_slide_in_right.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_activity_welcome.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/activity_welcome.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_register.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_register.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/navigation_tab_navigation.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/navigation/tab_navigation.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_login.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_login.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_fade_out.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_fade_out.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_fade_in.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_fade_in.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_slide_out_left.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_slide_out_left.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_activity_tab.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/activity_tab.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_third.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_third.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_fragment_welcome.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/fragment_welcome.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/anim_common_slide_out_right.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/anim/common_slide_out_right.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/navigation_welcome_navigation.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/navigation/welcome_navigation.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/generated/res/pngs/debug/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/limengge/dev/code/AndroidWorkspace/JetpackProject/navigationdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]

@@ -25,9 +25,9 @@ class TabActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab)
-        switchFirst = findViewById<TextView>(R.id.switch_first)
-        switchSecond = findViewById<TextView>(R.id.switch_second)
-        switchThird = findViewById<TextView>(R.id.switch_third)
+        switchFirst = findViewById(R.id.switch_first)
+        switchSecond = findViewById(R.id.switch_second)
+        switchThird = findViewById(R.id.switch_third)
 
 //        val navHostFragment =
 //            supportFragmentManager.findFragmentById(R.id.my_tab_fragment) as NavHostFragment

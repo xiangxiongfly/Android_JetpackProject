@@ -1,40 +1,36 @@
 package com.example.livedatademo;
 
+import android.os.Bundle;
+import android.util.Log;
+
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.arch.core.util.Function;
-import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MediatorLiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.Observer;
-import androidx.lifecycle.Transformations;
-
-import android.os.Bundle;
-import android.util.Log;
-import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
     private final String TAG = "TAG";
 
-//    private MutableLiveData<String> liveData;
+    private MutableLiveData<String> liveData;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        liveData = new MutableLiveData<>();
-//        liveData.observe(this, new Observer<String>() {
-//            @Override
-//            public void onChanged(String s) {
-//                Log.e(TAG, "onChanged: " + s);
-//            }
-//
-//        });
+        liveData = new MutableLiveData<>();
+        liveData.observe(this, new Observer<String>() {
+            @Override
+            public void onChanged(String s) {
+                Log.e(TAG, "onChanged: " + s);
+            }
 
-//        Log.e(TAG, "onCreate()");
-//        liveData.setValue("onCreate");
+        });
 
+        liveData.setValue("onCreate");
+        liveData.setValue("onCreate2");
+        liveData.setValue("onCreate3");
     }
 
     @Override

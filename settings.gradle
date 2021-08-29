@@ -7,3 +7,8 @@ include ':navigationdemo'
 include ':hiltdemo'
 rootProject.name = "Jetpack"
 include ':appstartupdemo'
+include ':mvvm_simple'
+include ':mvvm_retrofit_coroutines'
+include ':mvvm_retrofit_coroutines_flow'
+include ':MeterialDesign'
+include ':flow'
