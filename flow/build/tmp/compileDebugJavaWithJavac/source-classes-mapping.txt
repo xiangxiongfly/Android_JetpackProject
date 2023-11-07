@@ -1,2 +1,0 @@
-com/example/flow/BuildConfig.java
- com.example.flow.BuildConfig

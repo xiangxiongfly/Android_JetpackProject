@@ -2,20 +2,19 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Jetpack.iml" filepath="$PROJECT_DIR$/.idea/modules/Jetpack.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/meterail_design/Jetpack.MeterialDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/meterail_design/Jetpack.MeterialDesign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Jetpack.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Jetpack.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appstartupdemo/Jetpack.appstartupdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/appstartupdemo/Jetpack.appstartupdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/flow/Jetpack.flow.iml" filepath="$PROJECT_DIR$/.idea/modules/flow/Jetpack.flow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hiltdemo/Jetpack.hiltdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/hiltdemo/Jetpack.hiltdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecyclerdemo/Jetpack.lifecycledemo.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecyclerdemo/Jetpack.lifecycledemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/livedatademo/Jetpack.livedatademo.iml" filepath="$PROJECT_DIR$/.idea/modules/livedatademo/Jetpack.livedatademo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/Jetpack.mvvm_retrofit_coroutines.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/Jetpack.mvvm_retrofit_coroutines.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/Jetpack.mvvm_retrofit_coroutines_flow.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/Jetpack.mvvm_retrofit_coroutines_flow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_simple/Jetpack.mvvm_simple.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_simple/Jetpack.mvvm_simple.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigationdemo/Jetpack.navigationdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/navigationdemo/Jetpack.navigationdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewbindingdemo/Jetpack.viewbindingdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewbindingdemo/Jetpack.viewbindingdemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodeldemo/Jetpack.viewmodeldemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodeldemo/Jetpack.viewmodeldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/JetpackProject.iml" filepath="$PROJECT_DIR$/.idea/modules/JetpackProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/MeterialDesign/JetpackProject.MeterialDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/MeterialDesign/JetpackProject.MeterialDesign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JetpackProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JetpackProject.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/livedatademo/JetpackProject.livedatademo.iml" filepath="$PROJECT_DIR$/.idea/modules/livedatademo/JetpackProject.livedatademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/JetpackProject.mvvm_retrofit_coroutines.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/JetpackProject.mvvm_retrofit_coroutines.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/JetpackProject.mvvm_retrofit_coroutines_flow.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/JetpackProject.mvvm_retrofit_coroutines_flow.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_simple/JetpackProject.mvvm_simple.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_simple/JetpackProject.mvvm_simple.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewbindingdemo/JetpackProject.viewbindingdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewbindingdemo/JetpackProject.viewbindingdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodeldemo/JetpackProject.viewmodeldemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodeldemo/JetpackProject.viewmodeldemo.iml" />
     </modules>
   </component>
 </project>
