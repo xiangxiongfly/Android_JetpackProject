@@ -4,14 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JetpackProject.iml" filepath="$PROJECT_DIR$/.idea/modules/JetpackProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/MeterialDesign/JetpackProject.MeterialDesign.iml" filepath="$PROJECT_DIR$/.idea/modules/MeterialDesign/JetpackProject.MeterialDesign.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/JetpackProject.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/JetpackProject.app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/livedatademo/JetpackProject.livedatademo.iml" filepath="$PROJECT_DIR$/.idea/modules/livedatademo/JetpackProject.livedatademo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/JetpackProject.mvvm_retrofit_coroutines.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines/JetpackProject.mvvm_retrofit_coroutines.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/JetpackProject.mvvm_retrofit_coroutines_flow.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_retrofit_coroutines_flow/JetpackProject.mvvm_retrofit_coroutines_flow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/mvvm_simple/JetpackProject.mvvm_simple.iml" filepath="$PROJECT_DIR$/.idea/modules/mvvm_simple/JetpackProject.mvvm_simple.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/navigationdemo/JetpackProject.navigationdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewbindingdemo/JetpackProject.viewbindingdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewbindingdemo/JetpackProject.viewbindingdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/viewmodeldemo/JetpackProject.viewmodeldemo.iml" filepath="$PROJECT_DIR$/.idea/modules/viewmodeldemo/JetpackProject.viewmodeldemo.iml" />

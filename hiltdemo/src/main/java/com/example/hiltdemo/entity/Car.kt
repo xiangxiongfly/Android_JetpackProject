@@ -5,7 +5,7 @@ import com.example.hiltdemo.di.BindGasEngine
 import com.example.hiltdemo.log
 import javax.inject.Inject
 
-class Car @Inject constructor(val user: User) {
+class Car @Inject constructor(val driver: Driver) {
 
     @Inject
     lateinit var engine: Engine
@@ -18,15 +18,16 @@ class Car @Inject constructor(val user: User) {
     @Inject
     lateinit var electricEngine: Engine
 
-    fun drive() {
-        log("$user 正在开车")
-        engine.start()
-        engine.shutdown()
+    fun start() {
+
+//        engine.start()
+//        log("$driver 正在开车")
+//        engine.shutdown()
 
         gasEngine.start()
-        gasEngine.shutdown()
-
         electricEngine.start()
+        log("hello $driver 正在开车")
+        gasEngine.shutdown()
         electricEngine.shutdown()
     }
 }

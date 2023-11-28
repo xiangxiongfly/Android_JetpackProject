@@ -11,6 +11,7 @@ import dagger.hilt.android.components.ActivityComponent
 @InstallIn(ActivityComponent::class)
 abstract class EngineModule {
 
+    // 返回值必须是Engine类型，表示给Engine类型的接口提供实例
     @Binds
     abstract fun bindEngine(gasEngine: GasEngine): Engine
 }

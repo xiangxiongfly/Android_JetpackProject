@@ -1,9 +1,12 @@
 package com.example.hiltdemo.entity
 
-import dagger.hilt.android.scopes.ActivityScoped
+import com.example.hiltdemo.log
 import javax.inject.Inject
 
 //@Singleton
-@ActivityScoped
+//@ActivityScoped
 class User @Inject constructor() {
+    fun sayHello() {
+        log("hello")
+    }
 }

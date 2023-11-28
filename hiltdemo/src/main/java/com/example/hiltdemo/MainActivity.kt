@@ -1,13 +1,14 @@
 package com.example.hiltdemo
 
 
+import android.content.Intent
 import android.os.Bundle
-import android.widget.TextView
+import android.view.View
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import com.example.hiltdemo.entity.Car
+import com.example.hiltdemo.entity.MyAppAndActivity
 import com.example.hiltdemo.entity.MyContext
-import com.example.hiltdemo.entity.MyContext2
 import com.example.hiltdemo.entity.User
 import dagger.hilt.android.AndroidEntryPoint
 import okhttp3.OkHttpClient
@@ -32,36 +33,46 @@ class MainActivity : AppCompatActivity() {
     @Inject
     lateinit var retrofit: Retrofit
 
-    private val viewModel by viewModels<MyViewModel>()
-
     @Inject
     lateinit var myContext: MyContext
 
     @Inject
-    lateinit var myContext2: MyContext2
+    lateinit var my: MyAppAndActivity
 
+    @Inject
+    lateinit var baseApplication: BaseApplication
+
+    private val viewModel by viewModels<MyViewModel>()
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val textView = findViewById<TextView>(R.id.textView)
-        val stringBuilder = StringBuilder()
-
         log("$user")
-        log("$user2")
+//        log("$user2")
+//        user.sayHello()
+//        user2.sayHello()
+//
+//        car.start()
 
-        car.drive()
+//        log("okHttpClient: $okHttpClient")
+//        log("retrofit: $retrofit ")
 
-        log("okHttpClient: $okHttpClient")
-        log("retrofit: $retrofit ")
+//        log("appContext : ${myContext.appContext}")
+//        log("activityContext : ${myContext.activityContext}")
 
-        log("myContext : ${myContext.conext}  ${myContext.activityContext}")
-        log("myContext2 : ${myContext2.application} ${myContext2.activity}")
+//        log("application : ${my.application}")
+//        log("activity : ${my.activity}")
+
+//        log("baseApplication: $baseApplication")
 
         viewModel.loadData().observe(this) {
             log(it)
         }
 
+    }
+
+    fun toFragmentActivity(view: View) {
+        startActivity(Intent(this, FragmentWidthActivity::class.java))
     }
 }

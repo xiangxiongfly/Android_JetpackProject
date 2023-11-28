@@ -30,7 +30,7 @@ class SimpleFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         log("Fragment: $user")
 
-        log("Fragment : ${myContext.conext}  ${myContext.activityContext}")
+        log("Fragment : ${myContext.appContext}  ${myContext.activityContext}")
 
     }
 }
