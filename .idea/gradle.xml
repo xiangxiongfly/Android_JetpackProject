@@ -19,6 +19,7 @@
             <option value="$PROJECT_DIR$/navigationdemo" />
             <option value="$PROJECT_DIR$/viewbindingdemo" />
             <option value="$PROJECT_DIR$/viewmodeldemo" />
+            <option value="$PROJECT_DIR$/workmanagerdemo" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
