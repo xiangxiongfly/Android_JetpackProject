@@ -62,7 +62,9 @@ class MainActivity : AppCompatActivity() {
                 WorkManager.getInstance(this).enqueue(workRequest)
             }
             R.id.btn_cancel -> {
-                WorkManager.getInstance(this).cancelWorkById(workRequest.id)
+//                WorkManager.getInstance(this).cancelWorkById(workRequest.id) //通过id取消
+//                WorkManager.getInstance(this).cancelAllWorkByTag("workGroup") //通过tag取消
+                WorkManager.getInstance(this).cancelAllWork() //取消所有任务
             }
             R.id.btn_params -> {
                 val request: WorkRequest = OneTimeWorkRequestBuilder<ParamsWorker>()
