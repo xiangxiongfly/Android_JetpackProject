@@ -51,6 +51,13 @@
         <option name="name" value="WorkManager" />
         <option name="packageNamePattern" value="" />
       </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="Paging3" />
+        <option name="name" value="Paging3" />
+        <option name="packageNamePattern" value="" />
+      </filter>
     </filters>
   </component>
   <component name="AndroidLayouts">
@@ -62,7 +69,8 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Paging3" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
@@ -72,7 +80,48 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="WorkManager">
+    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="update">
+      <change afterPath="$PROJECT_DIR$/paging3demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/androidTest/java/com/example/paging3demo/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/base/BaseApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/network/NetworkManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/network/NetworkUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/repository/bean/BaseResponse.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/repository/bean/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/repository/data/UserPagingSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/repository/data/UserRepo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/repository/webservice/UserService.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/ui/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/ui/adapter/FooterAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/ui/adapter/UserAdapter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/utils/fn.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/java/com/example/paging3demo/viewmodel/MainViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/layout/item_footer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/layout/item_user.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/values/themes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/main/res/xml/network_security_config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/paging3demo/src/test/java/com/example/paging3demo/ExampleUnitTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -83,11 +132,10 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_3_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" afterDir="false" />
@@ -184,11 +232,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_android_2_36_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_android_2_36_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hi_dhl_jdatabinding_1_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hi_dhl_jdatabinding_1_0_4_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_litepal_guolindev_core_3_2_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_litepal_guolindev_core_3_2_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/FragmentWidthActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/FragmentWidthActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/activity_fragment_width.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/activity_fragment_width.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/example/workmanagerdemo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/src/main/java/com/example/workmanagerdemo/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,11 +286,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="layoutResourceFile" />
         <option value="navigationResourceFile" />
         <option value="Kotlin Interface" />
         <option value="Kotlin File" />
         <option value="Class" />
+        <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -259,12 +306,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DEBUGGABLE_DEVICE" value="vivo-v1936a-959b45dd" />
-    <property name="DEBUGGABLE_PROCESS" value="com.example.workmanagerdemo" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.paging3demo" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/limengge/.android/avd/Pixel_XL_API_28.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-01T13:25:12.076926Z" />
@@ -279,7 +325,7 @@
     <property name="android-custom-view/Users/limengge/dev/devsoftware/AndroidSDK/sources/android-30/android/widget/TextView.java_SELECTED" value="TextView" />
     <property name="android-custom-viewD:/dev/AndroidSDK/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/TaobaoAlliance-master" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Paging3Demo-master" />
     <property name="multi-representation-preview/Users/limengge/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
@@ -291,13 +337,13 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.paging3demo.repository.data" />
+      <recent name="com.example.paging3demo.ui" />
       <recent name="com.example.hiltdemo.entity" />
       <recent name="com.example.navigationdemo.login" />
     </key>
-    <key name="android.template.1994959786">
-      <recent name="com.example.databindingdemo" />
-      <recent name="com.example.navigationdemo.login2" />
-      <recent name="com.example.navigationdemo" />
+    <key name="android.template.1028080043">
+      <recent name="com.example.viewbindingdemo" />
     </key>
     <key name="android.template.1108170901">
       <recent name="com.example.lifecyclerdemo" />
@@ -317,14 +363,17 @@
     <key name="android.template.-1287308307">
       <recent name="com.example.databindingdemo" />
     </key>
+    <key name="android.template.1994959786">
+      <recent name="com.example.databindingdemo" />
+      <recent name="com.example.navigationdemo.login2" />
+      <recent name="com.example.navigationdemo" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorksapce\android\JetpackProject\paging3demo\src\main\res" />
       <recent name="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity" />
       <recent name="$PROJECT_DIR$/navigationdemo/src/main/res/layout" />
       <recent name="$PROJECT_DIR$/navigationdemo/src/main/res/navigation" />
       <recent name="$PROJECT_DIR$/navigationdemo/src/main/res" />
-    </key>
-    <key name="android.template.1028080043">
-      <recent name="com.example.viewbindingdemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.viewbindingdemo.base" />
@@ -339,7 +388,7 @@
       <recent name="com.example.viewmodeldemo" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.workmanagerdemo">
+  <component name="RunManager" selected="Android App.paging3demo">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -753,6 +802,64 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="paging3demo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="JetpackProject.paging3demo" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="viewbindingdemo" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="JetpackProject.viewbindingdemo" />
       <option name="DEPLOY" value="true" />
@@ -938,6 +1045,7 @@
       <item itemvalue="Android App.lifecycledemo" />
       <item itemvalue="Android App.MeterialDesign" />
       <item itemvalue="Android App.workmanagerdemo" />
+      <item itemvalue="Android App.paging3demo" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -1022,7 +1130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702626632019</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update">
+      <created>1702631440113</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1702631440113</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1076,7 +1191,8 @@
     <MESSAGE value="完善ViewBinding使用" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="WorkManager" />
-    <option name="LAST_COMMIT_MESSAGE" value="WorkManager" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="731" y="316" key="#Gradle" timestamp="1702604437172">
@@ -1091,90 +1207,110 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="750" y="171" width="1092" height="866" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1701163480187" />
-    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1702607450651">
+    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1702972588029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1702607450651" />
-    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1701160532539">
+    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1702972588029" />
+    <state x="854" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1702955660713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1701160532539" />
+    <state x="854" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702955660713" />
+    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1702957290376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702957290376" />
+    <state x="1150" y="339" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1702957474110">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1150" y="339" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702957474110" />
+    <state x="889" y="243" width="963" height="597" key="#xdebugger.evaluate" timestamp="1702974421716">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="889" y="243" width="963" height="597" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1702974421716" />
     <state x="1080" y="285" key="AndroidCreateResourceFileDialog" timestamp="1699948789137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1080" y="285" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699948789137" />
-    <state x="1035" y="248" key="AndroidProcessChooserDialog" timestamp="1702611470248">
+    <state x="1035" y="248" key="AndroidProcessChooserDialog" timestamp="1702974208098">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="248" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702611470248" />
+    <state x="1035" y="248" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702974208098" />
     <state x="290" y="156" width="1350" height="794" key="DiffContextDialog" timestamp="1702631391913">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="290" y="156" width="1350" height="794" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702631391913" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1702524949043">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1702975760649">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1702524949043" />
-    <state width="1877" height="440" key="GridCell.Tab.0.bottom" timestamp="1702631079190">
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1702975760649" />
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom" timestamp="1703042218048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="440" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1702631079190" />
-    <state width="1877" height="440" key="GridCell.Tab.0.center" timestamp="1702631079190">
+    <state width="1877" height="311" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1703042218048" />
+    <state width="1877" height="311" key="GridCell.Tab.0.center" timestamp="1703042218047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="440" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1702631079190" />
-    <state width="1877" height="440" key="GridCell.Tab.0.left" timestamp="1702631079190">
+    <state width="1877" height="311" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1703042218047" />
+    <state width="1877" height="311" key="GridCell.Tab.0.left" timestamp="1703042218047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="440" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1702631079190" />
-    <state width="1877" height="440" key="GridCell.Tab.0.right" timestamp="1702631079190">
+    <state width="1877" height="311" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1703042218047" />
+    <state width="1877" height="311" key="GridCell.Tab.0.right" timestamp="1703042218047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="440" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1702631079190" />
-    <state width="1490" height="257" key="GridCell.Tab.1.bottom" timestamp="1702611483746">
+    <state width="1877" height="311" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1703042218047" />
+    <state width="1877" height="273" key="GridCell.Tab.1.bottom" timestamp="1702974413497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="257" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1702611483746" />
-    <state width="1490" height="257" key="GridCell.Tab.1.center" timestamp="1702611483745">
+    <state width="1877" height="273" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1702974413497" />
+    <state width="1877" height="273" key="GridCell.Tab.1.center" timestamp="1702974413497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="257" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1702611483745" />
-    <state width="1490" height="257" key="GridCell.Tab.1.left" timestamp="1702611483745">
+    <state width="1877" height="273" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1702974413497" />
+    <state width="1877" height="273" key="GridCell.Tab.1.left" timestamp="1702974413496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="257" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1702611483745" />
-    <state width="1490" height="257" key="GridCell.Tab.1.right" timestamp="1702611483746">
+    <state width="1877" height="273" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1702974413496" />
+    <state width="1877" height="273" key="GridCell.Tab.1.right" timestamp="1702974413497">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1490" height="257" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1702611483746" />
+    <state width="1877" height="273" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1702974413497" />
+    <state x="434" y="0" key="ScreenshotViewer.Dimensions" timestamp="1703041151470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="434" y="0" key="ScreenshotViewer.Dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1703041151470" />
     <state x="801" y="143" key="SettingsEditor" timestamp="1702607387023">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="801" y="143" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1702607387023" />
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2" timestamp="1702626634375">
+    <state x="552" y="239" width="1044" height="562" key="Vcs.Push.Dialog.v2" timestamp="1702631456764">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="239" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702626634375" />
+    <state x="552" y="239" width="1044" height="562" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1702631456764" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1702974396919">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1702974396919" />
     <state x="535" y="173" width="1350" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1701224825220">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="535" y="173" width="1350" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1701224825220" />
-    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions" timestamp="1702606534955">
+    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions" timestamp="1703036399108">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1702606534955" />
-    <state x="1027" y="271" width="636" height="536" key="find.popup" timestamp="1701163394511">
+    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1703036399108" />
+    <state x="1027" y="271" width="636" height="536" key="find.popup" timestamp="1702979627980">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1027" y="271" width="636" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1701163394511" />
+    <state x="1027" y="271" width="636" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702979627980" />
     <state width="600" height="428" key="javadoc.popup" timestamp="1702611027173">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702611027173" />
-    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1699944358074">
+    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1702971631386">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1699944358074" />
+    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702971631386" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
