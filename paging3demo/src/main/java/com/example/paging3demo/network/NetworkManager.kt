@@ -26,5 +26,4 @@ object NetworkManager {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
-
 }

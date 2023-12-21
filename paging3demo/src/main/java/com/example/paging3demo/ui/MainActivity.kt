@@ -13,6 +13,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.paging3demo.R
 import com.example.paging3demo.repository.bean.User
+import com.example.paging3demo.ui.adapter.FooterAdapter
 import com.example.paging3demo.ui.adapter.UserAdapter
 import com.example.paging3demo.utils.logE
 import com.example.paging3demo.utils.showToast
@@ -47,12 +48,12 @@ class MainActivity : AppCompatActivity() {
         mAdapter = UserAdapter { position, user ->
             user.fullName = System.currentTimeMillis().toString()
         }
-        rvUsers.adapter = mAdapter
+//        rvUsers.adapter = mAdapter
         // 添加footer
-//        rvUsers.adapter = mAdapter.withLoadStateFooter(FooterAdapter {
-//            // 重试
-//            mAdapter.retry()
-//        })
+        rvUsers.adapter = mAdapter.withLoadStateFooter(FooterAdapter {
+            // 重试
+            mAdapter.retry()
+        })
         // 刷新
         btnRefresh.setOnClickListener {
             mAdapter.refresh()
