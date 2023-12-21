@@ -6,7 +6,10 @@ import com.example.paging3demo.repository.bean.User
 import com.example.paging3demo.repository.webservice.UserService
 
 /**
- * 重写PagingSource接口，其中2个泛型参数：第一个表示第几页Int类型，第二个表示请求类型User类型
+ * 定义数据源
+ * 需要PagingSource接口，PagingSource有2个泛型参数：
+ *  第一个参数Key表示第几页Int类型
+ *  第二个参数Value表示请求类型User类型
  */
 class UserPagingSource(private val userService: UserService) : PagingSource<Int, User>() {
     override suspend fun load(params: LoadParams<Int>): LoadResult<Int, User> {

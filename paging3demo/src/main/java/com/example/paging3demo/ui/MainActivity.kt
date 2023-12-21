@@ -8,10 +8,11 @@ import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
 import androidx.paging.LoadState
+import androidx.paging.PagingData
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.paging3demo.R
-import com.example.paging3demo.ui.adapter.FooterAdapter
+import com.example.paging3demo.repository.bean.User
 import com.example.paging3demo.ui.adapter.UserAdapter
 import com.example.paging3demo.utils.logE
 import com.example.paging3demo.utils.showToast
@@ -42,21 +43,29 @@ class MainActivity : AppCompatActivity() {
 
     private fun initRv() {
         rvUsers.layoutManager = LinearLayoutManager(this)
-        mAdapter = UserAdapter()
+//        mAdapter = UserAdapter()
+        mAdapter = UserAdapter { position, user ->
+            user.fullName = System.currentTimeMillis().toString()
+        }
+        rvUsers.adapter = mAdapter
         // 添加footer
-        rvUsers.adapter = mAdapter.withLoadStateFooter(FooterAdapter {
-            // 重试
-            mAdapter.retry()
-        })
+//        rvUsers.adapter = mAdapter.withLoadStateFooter(FooterAdapter {
+//            // 重试
+//            mAdapter.retry()
+//        })
         // 刷新
         btnRefresh.setOnClickListener {
             mAdapter.refresh()
         }
     }
 
+    private lateinit var pagingData: PagingData<User>
+
     private fun observe() {
         lifecycleScope.launch {
+            // 监听数据
             viewModel.getPagingData().collect {
+                pagingData = it
                 // 将数据传递给适配器
                 mAdapter.submitData(it)
             }
