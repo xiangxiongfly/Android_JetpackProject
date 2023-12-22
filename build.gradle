@@ -1,6 +1,6 @@
 buildscript {
     ext {
-        kotlin_version = '1.5.21'
+        kotlin_version = '1.5.31'
         ktx_version = '1.5.0'
 
         hiltVersion = "2.36"
@@ -19,6 +19,10 @@ buildscript {
 
         // Hilt
         classpath "com.google.dagger:hilt-android-gradle-plugin:$hiltVersion"
+
+        // Proto DataStore
+        classpath 'com.google.protobuf:protobuf-gradle-plugin:0.8.19'
+
     }
 }
 

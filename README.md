@@ -11,3 +11,4 @@ Jetpack 是一个由多个库组成的套件，可帮助开发者遵循最佳实
 - AppStartup
 - WorkManager
 - Paging3
+- DataStore
