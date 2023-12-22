@@ -1,25 +1,20 @@
 package com.example.datastoredemo
 
-import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
-import androidx.datastore.core.DataStore
-import androidx.datastore.dataStore
-import androidx.datastore.preferences.core.*
-import androidx.datastore.preferences.preferencesDataStore
+import androidx.datastore.preferences.core.booleanPreferencesKey
+import androidx.datastore.preferences.core.edit
+import androidx.datastore.preferences.core.intPreferencesKey
+import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.lifecycle.lifecycleScope
-import com.example.datastoredemo.data.PersonSerializer
+import com.example.datastoredemo.exts.dataStore
+import com.example.datastoredemo.exts.personDataStore
 import com.example.datastoredemo.utils.logE
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity() {
-    val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "user_info")
-    val Context.personDataStore: DataStore<PersonPreferences> by dataStore(
-        fileName = "person.pb", serializer = PersonSerializer
-    )
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
