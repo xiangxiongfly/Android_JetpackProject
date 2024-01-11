@@ -13,6 +13,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/appstartupdemo" />
+            <option value="$PROJECT_DIR$/cameraxdemo" />
             <option value="$PROJECT_DIR$/datastoredemo" />
             <option value="$PROJECT_DIR$/hiltdemo" />
             <option value="$PROJECT_DIR$/lifecycledemo" />
