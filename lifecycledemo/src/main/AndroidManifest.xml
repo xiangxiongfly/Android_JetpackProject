@@ -10,11 +10,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.JetPack">
-        <activity android:name=".TwoActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".advertising.AdvertisingActivity" />
+        <activity android:name=".advertising2.AdvertisingActivity2" />
+        <activity android:name=".advertising3.LifecycleCustomActivity" />
+        <activity android:name=".simple.LifecycleActivity" />
+        <activity android:name=".dialog.DialogActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

@@ -84,7 +84,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="CameraX" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="AutoImportSettings">
@@ -95,48 +95,36 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="DataStore">
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/proguard-rules.pro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/androidTest/java/com/example/cameraxdemo/ExampleInstrumentedTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/base/BaseActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/base/BaseApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/picture/PictureActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/utils.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/java/com/example/cameraxdemo/video/VideoActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_camera_change.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_camera_change_bg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_capture.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_capture_normal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_capture_pressed.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_focus_view.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/drawable/ic_qr_code.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/layout/activity_picture.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/layout/activity_video.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/values/colors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/values/strings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/values/themes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/main/res/xml/file_paths.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cameraxdemo/src/test/java/com/example/cameraxdemo/ExampleUnitTest.kt" afterDir="false" />
+    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="CameraX">
+      <change afterPath="$PROJECT_DIR$/common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/androidTest/java/com/example/common/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/actions/HandlerAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/actions/ResourcesAction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/base/BaseActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/example/common/ExampleUnitTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/BaseApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/MainActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/SecondActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/advertising/AdvertisingActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/advertising/AdvertisingManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/advertising2/AdvertisingActivity2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/advertising2/AdvertisingManager2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/advertising3/LifecycleCustomActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/dialog/DialogActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/dialog/MyDialog.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/IObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/LifecycleActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver2.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_advertising.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_lifecycle_dialog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_second.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/dialog_lifecycle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -148,13 +136,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_process_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/BaseApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/TwoActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/drawable-v24/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/layout/activity_lifecycle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/res/values/themes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -207,12 +207,12 @@
       <list>
         <option value="resourceFile" />
         <option value="navigationResourceFile" />
-        <option value="Kotlin Interface" />
         <option value="layoutResourceFile" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin File" />
-        <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -250,7 +250,7 @@
     <property name="android-custom-viewD:/dev/AndroidSDK/sources/android-30/android/view/View.java_SELECTED" value="View" />
     <property name="android-custom-viewD:/dev/AndroidSDK/sources/android-31/android/widget/ImageView.java_SELECTED" value="ImageView" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/camera-xdemo-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lifecycledemo/src/main/res/layout" />
     <property name="multi-representation-preview/Users/limengge/.gradle/caches/modules-2/files-2.1/androidx.recyclerview/recyclerview/1.1.0/f2bdf79e1977939817f54a9d3e2f6bc52b63bdd0/recyclerview-1.1.0-sources.jar!/androidx/recyclerview/widget/RecyclerView.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
@@ -262,21 +262,21 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyWorksapce\android\JetpackProject\cameraxdemo\src\main\res\drawable" />
-      <recent name="D:\MyWorksapce\android\JetpackProject\splashscreendemo\src\main\res\drawable" />
-      <recent name="D:\MyWorksapce\android\JetpackProject\splashscreendemo\src\main\res\values-v31" />
-      <recent name="D:\MyWorksapce\android\JetpackProject\paging3demo\src\main\res" />
-      <recent name="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity" />
+      <recent name="D:\MyWorksapce\android\JetpackProject\lifecycledemo\src\main\res\layout" />
+      <recent name="D:\MyWorksapce\android\JetpackProject\common\src\main\java\com\example\common\base" />
+      <recent name="D:\MyWorksapce\android\JetpackProject\common\src\main\java\com\example\common\actions" />
+      <recent name="D:\MyWorksapce\android\JetpackProject\lifecycledemo\src\main\java\com\example\lifecyclerdemo" />
+      <recent name="D:\MyWorksapce\android\JetpackProject\lifecycledemo\src\main\java\com\example\lifecyclerdemo\advertising2" />
     </key>
     <key name="android.template.1028080043">
       <recent name="com.example.viewbindingdemo" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.example.lifecyclerdemo" />
       <recent name="com.example.cameraxdemo.base" />
       <recent name="com.example.cameraxdemo.picture" />
       <recent name="com.example.paging3demo.repository.data" />
       <recent name="com.example.paging3demo.ui" />
-      <recent name="com.example.hiltdemo.entity" />
     </key>
     <key name="android.template.-1303225277">
       <recent name="com.example.viewbindingdemo" />
@@ -313,14 +313,20 @@
       <recent name="com.example.cameraxdemo.capture" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.lifecyclerdemo.advertising3" />
+      <recent name="com.example.lifecyclerdemo.simple" />
       <recent name="com.example.hiltdemo.entity" />
       <recent name="com.example.navigationdemo.login2" />
     </key>
     <key name="android.template.-1287308307">
       <recent name="com.example.databindingdemo" />
     </key>
+    <key name="android.template.1408117943">
+      <recent name="com.example.lifecyclerdemo.advertising" />
+      <recent name="com.example.lifecyclerdemo.simple" />
+    </key>
   </component>
-  <component name="RunManager" selected="Android App.cameraxdemo">
+  <component name="RunManager" selected="Android App.lifecycledemo">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -345,8 +351,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -403,8 +407,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -461,8 +463,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -519,8 +519,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -560,7 +558,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lifecycledemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="lifecycledemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.lifecycledemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -577,8 +575,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -635,8 +631,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -693,8 +687,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -751,8 +743,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -809,8 +799,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -867,8 +855,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -925,8 +911,6 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
       <option name="DEBUGGER_TYPE" value="Auto" />
       <Auto>
         <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
@@ -1111,7 +1095,14 @@
       <option name="project" value="LOCAL" />
       <updated>1703227282186</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="CameraX">
+      <created>1704963777446</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704963777446</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1168,133 +1159,54 @@
     <MESSAGE value="update" />
     <MESSAGE value="Paging3" />
     <MESSAGE value="DataStore" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataStore" />
+    <MESSAGE value="CameraX" />
+    <option name="LAST_COMMIT_MESSAGE" value="CameraX" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="731" y="316" key="#Gradle" timestamp="1702604437172">
+    <state x="477" y="266" key="#PSD" timestamp="1718243361016">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="316" key="#Gradle/0.0.1920.1040@0.0.1920.1040" timestamp="1702604437172" />
-    <state x="681" y="243" key="#PSD" timestamp="1704961283108">
+    <state x="477" y="266" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1718243361016" />
+    <state x="1106" y="260" key="#com.intellij.ide.util.MemberChooser" timestamp="1718186269851">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="681" y="243" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1704961283108" />
-    <state x="750" y="99" width="1092" height="941" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1704700784259">
+    <state x="1106" y="260" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1718186269851" />
+    <state x="549" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1718185394834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="750" y="99" width="1092" height="941" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1704700784259" />
-    <state x="651" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1704880776637">
+    <state x="549" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718185394834" />
+    <state x="1209" y="321" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1718185056861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="651" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1704880776637" />
-    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser" timestamp="1704880528951">
+    <state x="1209" y="321" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718185056861" />
+    <state width="1877" height="516" key="GridCell.Tab.0.bottom" timestamp="1718243861852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1324" y="254" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1704880528951" />
-    <state x="854" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1702955660713">
+    <state width="1877" height="516" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718243861852" />
+    <state width="1877" height="516" key="GridCell.Tab.0.center" timestamp="1718243861852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702955660713" />
-    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1702957290376">
+    <state width="1877" height="516" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718243861852" />
+    <state width="1877" height="516" key="GridCell.Tab.0.left" timestamp="1718243861852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="179" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1702957290376" />
-    <state x="1150" y="339" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1704875295140">
+    <state width="1877" height="516" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718243861852" />
+    <state width="1877" height="516" key="GridCell.Tab.0.right" timestamp="1718243861852">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1150" y="339" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1704875295140" />
-    <state x="823" y="357" width="963" height="683" key="#xdebugger.evaluate" timestamp="1704792375669">
+    <state width="1877" height="516" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718243861852" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1718181814213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="823" y="357" width="963" height="683" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1704792375669" />
-    <state x="1080" y="285" key="AndroidCreateResourceFileDialog" timestamp="1699948789137">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718181814213" />
+    <state x="671" y="162" key="psd.add.module.dependency.panel.dimension" timestamp="1718243358448">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1080" y="285" key="AndroidCreateResourceFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1699948789137" />
-    <state x="1035" y="248" key="AndroidProcessChooserDialog" timestamp="1704792333554">
+    <state x="671" y="162" key="psd.add.module.dependency.panel.dimension/0.0.1920.1040@0.0.1920.1040" timestamp="1718243358448" />
+    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1718184592775">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1035" y="248" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1704792333554" />
-    <state x="290" y="156" width="1350" height="794" key="DiffContextDialog" timestamp="1703226863503">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="290" y="156" width="1350" height="794" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1703226863503" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1704962649094">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1704962649094" />
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom" timestamp="1704880504107">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1704880504107" />
-    <state width="1877" height="164" key="GridCell.Tab.0.center" timestamp="1704880504107">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1704880504107" />
-    <state width="1877" height="164" key="GridCell.Tab.0.left" timestamp="1704880504107">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1704880504107" />
-    <state width="1877" height="164" key="GridCell.Tab.0.right" timestamp="1704880504107">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="164" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1704880504107" />
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom" timestamp="1704880302135">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1704880302135" />
-    <state width="1877" height="339" key="GridCell.Tab.1.center" timestamp="1704880302134">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1704880302134" />
-    <state width="1877" height="339" key="GridCell.Tab.1.left" timestamp="1704880302134">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1704880302134" />
-    <state width="1877" height="339" key="GridCell.Tab.1.right" timestamp="1704880302134">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="339" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1704880302134" />
-    <state x="434" y="0" key="ScreenshotViewer.Dimensions" timestamp="1703041151470">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="434" y="0" key="ScreenshotViewer.Dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1703041151470" />
-    <state x="784" y="187" key="SettingsEditor" timestamp="1704962789232">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="784" y="187" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1704962789232" />
-    <state x="552" y="239" width="1044" height="562" key="Vcs.Push.Dialog.v2" timestamp="1703227284771">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="239" width="1044" height="562" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1703227284771" />
-    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1703122643483">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1703122643483" />
-    <state x="535" y="173" width="1350" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1701224825220">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="535" y="173" width="1350" height="776" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1701224825220" />
-    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions" timestamp="1704771466213">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="650" y="362" key="edit.logcat.filter.dialog.dimensions/0.0.1920.1040@0.0.1920.1040" timestamp="1704771466213" />
-    <state x="1027" y="271" width="636" height="536" key="find.popup" timestamp="1704778799655">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="1027" y="271" width="636" height="536" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1704778799655" />
-    <state width="600" height="428" key="javadoc.popup" timestamp="1702611027173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="600" height="428" key="javadoc.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1702611027173" />
-    <state x="617" y="239" key="psd.add.library.dependency.panel.dimension" timestamp="1704961282566">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="617" y="239" key="psd.add.library.dependency.panel.dimension/0.0.1920.1040@0.0.1920.1040" timestamp="1704961282566" />
-    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1704875536553">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="869" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1704875536553" />
+    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718184592775" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

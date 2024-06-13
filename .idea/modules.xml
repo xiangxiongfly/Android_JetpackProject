@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/JetpackProject.iml" filepath="$PROJECT_DIR$/.idea/modules/JetpackProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/appstartupdemo/JetpackProject.appstartupdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cameraxdemo/JetpackProject.cameraxdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/cameraxdemo/JetpackProject.cameraxdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/JetpackProject.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/JetpackProject.common.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/datastoredemo/JetpackProject.datastoredemo.iml" filepath="$PROJECT_DIR$/.idea/modules/datastoredemo/JetpackProject.datastoredemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" filepath="$PROJECT_DIR$/.idea/modules/hiltdemo/JetpackProject.hiltdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" filepath="$PROJECT_DIR$/.idea/modules/lifecycledemo/JetpackProject.lifecycledemo.iml" />
