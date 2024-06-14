@@ -1,7 +1,7 @@
 package com.example.lifecyclerdemo.dialog
 
 import android.os.Bundle
-import com.example.base.BaseActivity
+import com.example.common.base.BaseActivity
 import com.example.lifecyclerdemo.R
 
 class DialogActivity : BaseActivity() {

@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.hi-dhl:jdatabinding:1.0.4@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/39058e03db1047409bffa5b7486db952/jetified-jdatabinding-1.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9777ff1311b801f320f429b5315e4fda/jetified-jdatabinding-1.0.4/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d7b94ea7af9822f5b4d5e4f6e3b020f/jetified-jdatabinding-1.0.4/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d7b94ea7af9822f5b4d5e4f6e3b020f/jetified-jdatabinding-1.0.4/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d7b94ea7af9822f5b4d5e4f6e3b020f/jetified-jdatabinding-1.0.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d7b94ea7af9822f5b4d5e4f6e3b020f/jetified-jdatabinding-1.0.4/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/3d7b94ea7af9822f5b4d5e4f6e3b020f/jetified-jdatabinding-1.0.4/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hi-dhl/jdatabinding/1.0.4/dd18d638050546dfbac004a2aa38e17fe4d991b1/jdatabinding-1.0.4-javadoc.jar!/" />
