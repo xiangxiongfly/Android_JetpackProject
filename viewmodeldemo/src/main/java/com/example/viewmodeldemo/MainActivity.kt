@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.view.View
 import com.example.common.base.BaseActivity
 import com.example.viewmodeldemo.app_viewmodel.AndroidViewModelActivity
-import com.example.viewmodeldemo.fragments.SharedDataActivity
+import com.example.viewmodeldemo.shared.SharedDataActivity
 import com.example.viewmodeldemo.simple.SimpleActivity
 import com.example.viewmodeldemo.user.UserActivity
 

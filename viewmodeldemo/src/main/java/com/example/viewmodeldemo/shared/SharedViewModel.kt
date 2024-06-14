@@ -1,4 +1,4 @@
-package com.example.viewmodeldemo.fragments
+package com.example.viewmodeldemo.shared
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

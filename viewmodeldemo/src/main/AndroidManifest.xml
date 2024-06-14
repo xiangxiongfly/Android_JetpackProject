@@ -12,7 +12,7 @@
         <activity android:name=".simple.SimpleActivity" />
         <activity android:name=".app_viewmodel.AndroidViewModelActivity" />
         <activity android:name=".user.UserActivity" />
-        <activity android:name=".fragments.SharedDataActivity" />
+        <activity android:name=".shared.SharedDataActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

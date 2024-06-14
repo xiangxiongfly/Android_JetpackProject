@@ -1,4 +1,4 @@
-package com.example.viewmodeldemo.fragments
+package com.example.viewmodeldemo.shared
 
 import android.os.Bundle
 import android.view.View
