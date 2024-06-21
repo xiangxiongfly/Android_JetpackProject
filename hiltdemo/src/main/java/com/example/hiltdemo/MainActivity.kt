@@ -1,6 +1,5 @@
 package com.example.hiltdemo
 
-
 import android.content.Intent
 import android.os.Bundle
 import android.view.View

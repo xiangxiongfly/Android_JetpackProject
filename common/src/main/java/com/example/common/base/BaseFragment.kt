@@ -5,8 +5,12 @@ import androidx.annotation.LayoutRes
 import androidx.fragment.app.Fragment
 import com.example.base.action.HandlerAction
 
-open class BaseFragment @JvmOverloads constructor(@LayoutRes contentLayoutId: Int) :
-    Fragment(contentLayoutId), HandlerAction {
+open class BaseFragment : Fragment, HandlerAction {
+
+    constructor() : super()
+
+    constructor(@LayoutRes contentLayoutId: Int) : super(contentLayoutId)
+
     protected lateinit var mContext: Context
 
     override fun onAttach(context: Context) {

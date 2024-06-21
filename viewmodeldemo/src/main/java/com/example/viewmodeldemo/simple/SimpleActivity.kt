@@ -7,6 +7,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProvider
 import com.example.common.base.BaseActivity
 import com.example.viewmodeldemo.R
 
@@ -16,9 +17,9 @@ class SimpleActivity : BaseActivity() {
 
     private val viewModel: MyViewModel by viewModels()
 
-//    private val viewModel: MyViewModel by lazy {
-//        ViewModelProvider(this).get(MyViewModel::class.java)
-//    }
+    private val viewModel2: MyViewModel by lazy {
+        ViewModelProvider(this).get(MyViewModel::class.java)
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

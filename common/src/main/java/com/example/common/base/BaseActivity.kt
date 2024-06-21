@@ -6,9 +6,11 @@ import androidx.annotation.LayoutRes
 import androidx.appcompat.app.AppCompatActivity
 import com.example.base.action.HandlerAction
 
+open class BaseActivity : AppCompatActivity, HandlerAction {
 
-open class BaseActivity @JvmOverloads constructor(@LayoutRes contentLayoutId: Int = 0) :
-    AppCompatActivity(contentLayoutId), HandlerAction {
+    constructor() : super()
+
+    constructor(@LayoutRes contentLayoutId: Int) : super(contentLayoutId)
 
     protected lateinit var mContext: Context
 
