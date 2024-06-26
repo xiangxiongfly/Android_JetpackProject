@@ -6,10 +6,10 @@ Jetpack 是一个由多个库组成的套件，可帮助开发者遵循最佳实
 - [ViewModel](https://blog.csdn.net/qq_14876133/article/details/114832205)
 - [LiveData](https://blog.csdn.net/qq_14876133/article/details/114806356)
 - [ViewBinding](https://blog.csdn.net/qq_14876133/article/details/114888889)
-- Navigation
-- Hilt
-- AppStartup
-- WorkManager
-- Paging3
-- DataStore
-- CameraX
+- [Navigation](https://blog.csdn.net/qq_14876133/article/details/117292644)
+- [Hilt](https://blog.csdn.net/qq_14876133/article/details/119082018)
+- [AppStartup](https://blog.csdn.net/qq_14876133/article/details/119247723)
+- [WorkManager](https://blog.csdn.net/qq_14876133/article/details/135020265)
+- [Paging3](https://blog.csdn.net/qq_14876133/article/details/135126914)
+- [DataStore](https://blog.csdn.net/qq_14876133/article/details/135151418)
+- [CameraX](https://blog.csdn.net/qq_14876133/article/details/135534280)

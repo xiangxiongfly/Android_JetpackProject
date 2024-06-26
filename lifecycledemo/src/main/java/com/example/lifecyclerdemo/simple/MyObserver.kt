@@ -4,26 +4,26 @@ import android.util.Log
 
 class MyObserver : IObserver {
     override fun dispatchCreate() {
-        Log.e("TAG", "Activity#onCreate()")
+        Log.e("TAG", "MyObserver Activity#onCreate()")
     }
 
     override fun dispatchStart() {
-        Log.e("TAG", "Activity#onStart()")
+        Log.e("TAG", "MyObserver Activity#onStart()")
     }
 
     override fun dispatchResume() {
-        Log.e("TAG", "Activity#onResume()")
+        Log.e("TAG", "MyObserver Activity#onResume()")
     }
 
     override fun dispatchPause() {
-        Log.e("TAG", "Activity#onPause()")
+        Log.e("TAG", "MyObserver Activity#onPause()")
     }
 
     override fun dispatchStop() {
-        Log.e("TAG", "Activity#onStop()")
+        Log.e("TAG", "MyObserver Activity#onStop()")
     }
 
     override fun dispatchDestroy() {
-        Log.e("TAG", "Activity#onDestroy()")
+        Log.e("TAG", "MyObserver Activity#onDestroy()")
     }
 }

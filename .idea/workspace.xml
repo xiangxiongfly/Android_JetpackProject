@@ -84,7 +84,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="TAG" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="AutoImportSettings">
@@ -95,50 +95,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="LiveData">
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/bean/User.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/other/OthersActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/other/StockLiveData.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/other/StockManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/problem/Problem1Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/problem/Problem2Activity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/simple/SimpleActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/simple/SimpleViewModel.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_problem1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_simple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/BindingActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/BindingFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/OneActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/OneFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/BindingActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/BindingFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/TwoActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/TwoFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/ThreeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/ThreeFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/activityVewBindings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/fragmentViewBindings.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/dialog/TipDialog.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/include/VBIncludeActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/rv/RvActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/simple/MyFragment.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/simple/SimpleActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/simple/SimpleFragmentActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_one.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_simple.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_three.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_two.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_vb_fragment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/dialog_layout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_one.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_three.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_two.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/item_text.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/merge_detail.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/title_bar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/values/styles.xml" afterDir="false" />
+    <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="update">
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -149,129 +106,12 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_1_2_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_annotation_annotation_experimental_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_appcompat_appcompat_resources_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_5_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_1_6_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_5_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_core_core_ktx_1_6_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_drawerlayout_drawerlayout_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_1_3_4_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_3_3_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_common_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_2_2_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_3_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_1_0_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_2_1_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_material_material_1_4_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_3_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_2_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_dagger_lint_aar_2_36_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_android_2_36_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_dagger_hilt_core_2_36.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okhttp3_okhttp_4_9_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_okio_okio_2_8_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_50.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_jvm_1_4_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_jdk8_1_4_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appstartupdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/appstartupdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appstartupdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appstartupdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraxdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cameraxdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraxdemo/src/androidTest/java/com/example/cameraxdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cameraxdemo/src/test/java/com/example/cameraxdemo/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/androidTest/java/com/example/common/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/base/BaseActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/base/BaseActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/main/java/com/example/common/base/BaseFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/common/src/main/java/com/example/common/base/BaseFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/src/test/java/com/example/common/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastoredemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/datastoredemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/androidTest/java/com/example/hiltdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hiltdemo/src/test/java/com/example/hiltdemo/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycledemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/androidTest/java/com/example/lifecyclerdemo/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/test/java/com/example/lifecyclerdemo/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/androidTest/java/com/example/livedatademo/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/main/java/com/example/livedatademo/MyFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/livedatademo/src/test/java/com/example/livedatademo/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigationdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/navigationdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigationdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/navigationdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paging3demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/paging3demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/androidTest/java/com/example/viewbindingdemo/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/BaseApp.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/FrgActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/IncludeActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/LaunchActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/MyFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base/BaseBindingActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base/BaseBindingFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base/FirstActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base/FirstFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/SecondActivity.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/SecondFragment.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/rv/MyAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/rv/RvActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/utils.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_frg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/src/main/res/layout/activity_others.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_include.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_vbinclude.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_launch.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_rv.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_rv.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/detail_layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_my.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_my.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/fragment_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/item_layout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/titlebar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/test/java/com/example/viewbindingdemo/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewmodeldemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/viewmodeldemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewmodeldemo/src/androidTest/java/com/example/viewmodeldemo/ExampleInstrumentedTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewmodeldemo/src/main/java/com/example/viewmodeldemo/simple/SimpleActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewmodeldemo/src/main/java/com/example/viewmodeldemo/simple/SimpleActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewmodeldemo/src/test/java/com/example/viewmodeldemo/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/androidTest/java/com/example/workmanagerdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workmanagerdemo/src/test/java/com/example/workmanagerdemo/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver3.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/src/main/java/com/example/lifecyclerdemo/simple/MyObserver3.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/fragmentViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/fragmentViewBindings.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,8 +187,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DEBUGGABLE_DEVICE" value="xiaomi-m2011k2c-bd401a9e" />
-    <property name="DEBUGGABLE_PROCESS" value="com.example.livedatademo" />
+    <property name="DEBUGGABLE_DEVICE" value="vivo-v1936a-959b45dd" />
+    <property name="DEBUGGABLE_PROCESS" value="com.example.lifecyclerdemo" />
     <property name="DEBUGGER_ID" value="Auto" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="VirtualDevicePath@/Users/limengge/.android/avd/Pixel_XL_API_28.avd" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-08-01T13:25:12.076926Z" />
@@ -1241,7 +1081,14 @@
       <option name="project" value="LOCAL" />
       <updated>1718244808106</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update">
+      <created>1718955161535</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718955161535</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1295,13 +1142,13 @@
     <MESSAGE value="完善ViewBinding使用" />
     <MESSAGE value="优化代码" />
     <MESSAGE value="WorkManager" />
-    <MESSAGE value="update" />
     <MESSAGE value="Paging3" />
     <MESSAGE value="DataStore" />
     <MESSAGE value="CameraX" />
     <MESSAGE value="Lifecycle" />
     <MESSAGE value="LiveData" />
-    <option name="LAST_COMMIT_MESSAGE" value="LiveData" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="257" key="#PSD" timestamp="1718948181746">
@@ -1324,58 +1171,70 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="112" width="1367" height="797" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1718704587638" />
-    <state x="1338" y="266" key="AndroidProcessChooserDialog" timestamp="1718688664819">
+    <state x="1338" y="266" key="AndroidProcessChooserDialog" timestamp="1718960860005">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1338" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718688664819" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1718701222305">
+    <state x="1338" y="266" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718960860005" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1718963074908">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718701222305" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1718963074908" />
     <state x="836" y="297" key="FileChooserDialogImpl" timestamp="1718948173694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="836" y="297" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1718948173694" />
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom" timestamp="1718861945668">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718861945668" />
-    <state width="1877" height="467" key="GridCell.Tab.0.center" timestamp="1718861945668">
+    <state width="1877" height="319" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
+    <state width="1877" height="319" key="GridCell.Tab.0.center" timestamp="1718963859415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718861945668" />
-    <state width="1877" height="467" key="GridCell.Tab.0.left" timestamp="1718861945668">
+    <state width="1877" height="319" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859415" />
+    <state width="1877" height="319" key="GridCell.Tab.0.left" timestamp="1718963859415">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718861945668" />
-    <state width="1877" height="467" key="GridCell.Tab.0.right" timestamp="1718861945668">
+    <state width="1877" height="319" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859415" />
+    <state width="1877" height="319" key="GridCell.Tab.0.right" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="467" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718861945668" />
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1718699398063">
+    <state width="1877" height="319" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
+    <state width="1877" height="319" key="GridCell.Tab.1.bottom" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718699398063" />
-    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1718699398063">
+    <state width="1877" height="319" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
+    <state width="1877" height="319" key="GridCell.Tab.1.center" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718699398063" />
-    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1718699398063">
+    <state width="1877" height="319" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
+    <state width="1877" height="319" key="GridCell.Tab.1.left" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718699398063" />
-    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1718699398063">
+    <state width="1877" height="319" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
+    <state width="1877" height="319" key="GridCell.Tab.1.right" timestamp="1718963859416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718699398063" />
+    <state width="1877" height="319" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1718963859416" />
     <state x="461" y="164" key="SettingsEditor" timestamp="1718947911087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1718947911087" />
-    <state x="767" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1718688687874">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1718955170114">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="767" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1718688687874" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1718955170114" />
+    <state x="1053" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1718956405750">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1053" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1718956405750" />
+    <state x="767" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1718960736839">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="767" y="250" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1718960736839" />
+    <state x="399" y="324" width="1536" height="1000" key="dock-window-1" timestamp="1718957899733">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="399" y="324" width="1536" height="1000" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1718957899733" />
     <state x="793" y="298" width="683" height="616" key="find.popup" timestamp="1718790127914">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -1388,78 +1247,71 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1172" y="272" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718789513608" />
-    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1718866520315">
+    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup" timestamp="1718960469726">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718866520315" />
+    <state x="958" y="265" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1718960469726" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/LifecycleRegistry.java</url>
-          <line>170</line>
-          <properties class="androidx.lifecycle.LifecycleRegistry" method="addObserver">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.5.0/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.5.0-sources.jar!/androidx/lifecycle/LiveData.java</url>
-          <line>115</line>
-          <properties class="androidx.lifecycle.LiveData" method="considerNotify">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.5.0/29609e3d01eaafd06c688c5366154174cf686c12/lifecycle-common-2.5.0-sources.jar!/androidx/lifecycle/Lifecycle.java</url>
-          <line>66</line>
-          <properties class="androidx.lifecycle.Lifecycle" method="addObserver">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/LifecycleRegistry.java</url>
-          <line>350</line>
-          <properties class="androidx.lifecycle.LifecycleRegistry.ObserverWithState" method="dispatchEvent">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.3.1/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.3.1-sources.jar!/androidx/lifecycle/LiveData.java</url>
-          <line>414</line>
-          <properties class="androidx.lifecycle.LiveData.LifecycleBoundObserver" method="onStateChanged">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="40" />
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/ReportFragment.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.5.0/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.5.0-sources.jar!/androidx/lifecycle/LiveData.java</url>
-          <line>467</line>
-          <option name="timeStamp" value="31" />
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/ReportFragment.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.5.0/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.5.0-sources.jar!/androidx/lifecycle/LiveData.java</url>
-          <line>145</line>
-          <option name="timeStamp" value="33" />
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.5.0/d255b447102736e536a28b97671c6a736c801b7/lifecycle-runtime-2.5.0-sources.jar!/androidx/lifecycle/ReportFragment.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/LifecycleRegistry.java</url>
-          <line>195</line>
-          <option name="timeStamp" value="36" />
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-32/android/app/Application.java</url>
+          <line>538</line>
+          <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-runtime/2.3.1/ae7040cf314de81d20ac69f28f5ab6c9a2c0d1ab/lifecycle-runtime-2.3.1-sources.jar!/androidx/lifecycle/LifecycleRegistry.java</url>
-          <line>353</line>
-          <option name="timeStamp" value="38" />
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-30/android/app/Activity.java</url>
+          <line>1513</line>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-livedata-core/2.5.0/38ecd5651d87b6db994df01f93fc72d6e59b846a/lifecycle-livedata-core-2.5.0-sources.jar!/androidx/lifecycle/LiveData.java</url>
-          <line>416</line>
-          <option name="timeStamp" value="41" />
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-30/android/app/Activity.java</url>
+          <line>1517</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-30/android/app/Activity.java</url>
+          <line>1520</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-32/android/app/Activity.java</url>
+          <line>1299</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../dev/AndroidSDK/sources/android-32/android/app/Activity.java</url>
+          <line>1417</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.fragment/fragment/1.3.6/25ece06338d39da1fdc9d8488aa57b5014866918/fragment-1.3.6-sources.jar!/androidx/fragment/app/Fragment.java</url>
+          <line>318</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/29609e3d01eaafd06c688c5366154174cf686c12/lifecycle-common-2.4.0-sources.jar!/androidx/lifecycle/LifecycleOwner.java</url>
+          <line>35</line>
+          <properties class="androidx.lifecycle.LifecycleOwner" method="getLifecycle">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

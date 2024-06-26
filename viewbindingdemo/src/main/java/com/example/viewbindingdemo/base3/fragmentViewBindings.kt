@@ -36,20 +36,18 @@ class FragmentViewBindingDelegate1<VB : ViewBinding>(
                 "Access to viewBinding after Lifecycle is destroyed or hasn't created yet. The instance of viewBinding will be not cached."
             )
         } else {
-            thisRef.viewLifecycleOwnerLiveData.observe(thisRef) { viewLifecycleOwner ->
-                viewLifecycleOwner.lifecycle.addObserver(object : DefaultLifecycleObserver {
-                    override fun onDestroy(owner: LifecycleOwner) {
-                        //说明：
-                        //Fragment的ViewLifecycleOwner通知更新Lifecycle的ON_DESTROY时机是发生在Fragment#onDestroyView()之前
-                        //因此，需要将主线程上的所有操作完后才能清理ViewBinding
-                        mainHandler.post {
-                            viewBinding = null
-                        }
+            thisRef.lifecycle.addObserver(object : DefaultLifecycleObserver {
+                override fun onDestroy(owner: LifecycleOwner) {
+                    thisRef.lifecycle.removeObserver(this)
+                    //说明：
+                    //Fragment的ViewLifecycleOwner通知更新Lifecycle的ON_DESTROY时机是发生在Fragment#onDestroyView()之前
+                    //因此，需要将主线程上的所有操作完后才能清理ViewBinding
+                    mainHandler.post {
+                        viewBinding = null
                     }
-                })
-            }
+                }
+            })
         }
-
         return viewBinding!!
     }
 }
@@ -74,17 +72,15 @@ class FragmentViewBindingDelegate2<VB : ViewBinding>(
                 "Access to viewBinding after Lifecycle is destroyed or hasn't created yet. The instance of viewBinding will be not cached."
             )
         } else {
-            thisRef.viewLifecycleOwnerLiveData.observe(thisRef) { viewLifecycleOwner ->
-                viewLifecycleOwner.lifecycle.addObserver(object : DefaultLifecycleObserver {
-                    override fun onDestroy(owner: LifecycleOwner) {
-                        mainHandler.post {
-                            viewBinding = null
-                        }
+            thisRef.lifecycle.addObserver(object : DefaultLifecycleObserver {
+                override fun onDestroy(owner: LifecycleOwner) {
+                    thisRef.lifecycle.removeObserver(this)
+                    mainHandler.post {
+                        viewBinding = null
                     }
-                })
-            }
+                }
+            })
         }
-
         return viewBinding!!
     }
 }
