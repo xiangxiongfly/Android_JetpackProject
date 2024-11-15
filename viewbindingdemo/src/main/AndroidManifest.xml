@@ -22,9 +22,9 @@
         <activity android:name=".simple.SimpleFragmentActivity" />
         <activity android:name=".rv.RvActivity" />
         <activity android:name=".include.VBIncludeActivity" />
-        <activity android:name=".base1.OneActivity" />
-        <activity android:name=".base2.TwoActivity" />
-        <activity android:name=".base3.ThreeActivity" />
+        <activity android:name="com.example.viewbindingdemo.encapsulation.base.OneActivity" />
+        <activity android:name="com.example.viewbindingdemo.encapsulation.reflect.TwoActivity" />
+        <activity android:name="com.example.viewbindingdemo.encapsulation.delegate.ThreeActivity" />
     </application>
 
 </manifest>

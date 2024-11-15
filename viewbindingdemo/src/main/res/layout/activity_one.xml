@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".base1.OneActivity">
+    tools:context=".encapsulation.base.OneActivity">
 
     <TextView
         android:id="@+id/tv_name"
@@ -31,7 +31,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment"
-        android:name="com.example.viewbindingdemo.base1.OneFragment"
+        android:name="com.example.viewbindingdemo.encapsulation.base.OneFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

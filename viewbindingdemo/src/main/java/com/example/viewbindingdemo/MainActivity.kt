@@ -3,10 +3,10 @@ package com.example.viewbindingdemo
 import android.content.Intent
 import android.view.View
 import com.example.common.base.BaseActivity
-import com.example.viewbindingdemo.base1.OneActivity
-import com.example.viewbindingdemo.base2.TwoActivity
-import com.example.viewbindingdemo.base3.ThreeActivity
 import com.example.viewbindingdemo.dialog.TipDialog
+import com.example.viewbindingdemo.encapsulation.base.OneActivity
+import com.example.viewbindingdemo.encapsulation.delegate.ThreeActivity
+import com.example.viewbindingdemo.encapsulation.reflect.TwoActivity
 import com.example.viewbindingdemo.include.VBIncludeActivity
 import com.example.viewbindingdemo.rv.RvActivity
 import com.example.viewbindingdemo.simple.SimpleActivity

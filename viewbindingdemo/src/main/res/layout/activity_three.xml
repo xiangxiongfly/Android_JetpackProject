@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".base3.ThreeActivity">
+    tools:context=".encapsulation.delegate.ThreeActivity">
 
     <TextView
         android:id="@+id/tv_name"
@@ -30,7 +30,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment"
-        android:name="com.example.viewbindingdemo.base3.ThreeFragment"
+        android:name="com.example.viewbindingdemo.encapsulation.delegate.ThreeFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

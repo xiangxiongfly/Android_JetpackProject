@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    tools:context=".base2.TwoActivity">
+    tools:context=".encapsulation.reflect.TwoActivity">
 
     <TextView
         android:id="@+id/tv_name"
@@ -30,7 +30,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragment"
-        android:name="com.example.viewbindingdemo.base2.TwoFragment"
+        android:name="com.example.viewbindingdemo.encapsulation.reflect.TwoFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </LinearLayout>

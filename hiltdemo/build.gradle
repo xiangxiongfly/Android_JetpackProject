@@ -43,11 +43,11 @@ dependencies {
     implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
 
     //协程核心库
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:$kotlinx_coroutines_core"
     //协程Android支持库
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.2"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinx_coroutines_android"
     //协程Java8支持库
-    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.4.3"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:$kotlinx_coroutines_jdk8"
 
     //ktx
     implementation "androidx.activity:activity-ktx:$activity_ktx"
@@ -65,9 +65,9 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:$hilt_version"
 
     //retrofit2
-    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.retrofit2:retrofit:$retrofit"
 
     //okhttp3
-    implementation 'com.squareup.okhttp3:okhttp:4.9.1'
+    implementation "com.squareup.okhttp3:okhttp:$okhttp"
 
 }
