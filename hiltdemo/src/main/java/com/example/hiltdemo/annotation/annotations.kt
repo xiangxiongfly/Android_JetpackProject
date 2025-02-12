@@ -1,11 +1,11 @@
-package com.example.hiltdemo.di
+package com.example.hiltdemo.annotation
 
 import javax.inject.Qualifier
 
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
-annotation class BindGasEngine
+annotation class File
 
 @Qualifier
 @Retention(AnnotationRetention.BINARY)
-annotation class BindElectricEngine
+annotation class Db

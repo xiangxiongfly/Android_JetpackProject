@@ -34,12 +34,7 @@ android {
 }
 
 dependencies {
-
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-    implementation "androidx.core:core-ktx:$core_ktx"
-    implementation "androidx.appcompat:appcompat:$appcompat"
-    implementation "com.google.android.material:material:$material"
-    implementation "androidx.constraintlayout:constraintlayout:$constraintlayout"
+    implementation project(path: ':common')
 
     // Preferences DataStore
     implementation "androidx.datastore:datastore-preferences:1.0.0"

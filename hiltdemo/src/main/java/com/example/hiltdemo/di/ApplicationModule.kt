@@ -1,7 +1,7 @@
 package com.example.hiltdemo.di
 
 import android.app.Application
-import com.example.hiltdemo.BaseApplication
+import com.example.hiltdemo.base.BaseApplication
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

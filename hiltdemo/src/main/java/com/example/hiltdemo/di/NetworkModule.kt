@@ -8,10 +8,9 @@ import okhttp3.OkHttpClient
 import retrofit2.Retrofit
 import javax.inject.Singleton
 
-@Module
 @InstallIn(SingletonComponent::class)
-class NetworkModule {
-
+@Module
+object NetworkModule {
     @Singleton
     @Provides
     fun provideOkHttpClient(): OkHttpClient {
@@ -23,8 +22,8 @@ class NetworkModule {
     @Provides
     fun provideRetrofit(okHttpClient: OkHttpClient): Retrofit {
         return Retrofit.Builder()
+            .client(okHttpClient)
             .baseUrl("https://wanandroid.com/")
             .build()
     }
-
 }

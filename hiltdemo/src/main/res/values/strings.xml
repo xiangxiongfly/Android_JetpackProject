@@ -1,5 +1,3 @@
 <resources>
-    <string name="app_name">HiltDemo</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_simple_fragment">Hello Simple fragment</string>
+    <string name="app_name">hiltdemo</string>
 </resources>

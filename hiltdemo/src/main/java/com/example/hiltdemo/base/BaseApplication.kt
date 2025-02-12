@@ -1,4 +1,4 @@
-package com.example.hiltdemo
+package com.example.hiltdemo.base
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

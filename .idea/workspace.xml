@@ -84,7 +84,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Hilt" />
     <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
   </component>
   <component name="AutoImportSettings">
@@ -96,8 +96,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b08090a7-49ce-465d-af1d-fbb3321078fc" name="Default Changelist" comment="update">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/delegate/activityVewBindings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/androidTest/java/com/example/hiltdemo/ExampleInstrumentedTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/annotation/annotations.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/ApiServiceModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/MyActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/MyApp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/ObjModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/StorageModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/Engine.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/MyActivityRetainedScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/MyActivityScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/MyContext.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/MySingleton.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hiltdemo/src/test/java/com/example/hiltdemo/ExampleUnitTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -111,55 +122,92 @@
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_core_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_ext_junit_1_1_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hi_dhl_jdatabinding_1_0_4_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_litepal_guolindev_core_3_2_3_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_1_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_activity_activity_ktx_1_2_2_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_arch_core_core_runtime_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_asynclayoutinflater_asynclayoutinflater_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_1_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_2_0_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_constraintlayout_constraintlayout_solver_2_0_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_cursoradapter_cursoradapter_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_customview_customview_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_databinding_viewbinding_4_2_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_documentfile_documentfile_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_dynamicanimation_dynamicanimation_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_fragment_fragment_ktx_1_2_4_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_interpolator_interpolator_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_ui_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_core_utils_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_legacy_legacy_support_v4_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_core_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_livedata_ktx_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_runtime_ktx_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_ktx_2_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_lifecycle_lifecycle_viewmodel_savedstate_2_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_loader_loader_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_localbroadcastmanager_localbroadcastmanager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_media_media_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_common_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_fragment_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_runtime_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_navigation_navigation_ui_ktx_2_3_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_print_print_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_savedstate_savedstate_ktx_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_slidingpanelayout_slidingpanelayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_swiperefreshlayout_swiperefreshlayout_1_0_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_vectordrawable_vectordrawable_animated_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_versionedparcelable_versionedparcelable_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_viewpager_viewpager_1_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_android_1_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlinx_kotlinx_coroutines_core_1_3_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appstartupdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/appstartupdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appstartupdemo/src/androidTest/java/com/example/appstartupdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/appstartupdemo/src/test/java/com/example/appstartupdemo/ExampleUnitTest.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appstartupdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/appstartupdemo/src/main/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cameraxdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cameraxdemo/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/common/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/common/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastoredemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/datastoredemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastoredemo/src/androidTest/java/com/example/datastoredemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastoredemo/src/test/java/com/example/datastoredemo/ExampleUnitTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/hiltdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/BaseApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/base/BaseApplication.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/FragmentWidthActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/MyViewModel.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/Repository.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/SimpleFragment.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/ApplicationModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/ApplicationModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/Engine.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/EngineModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/NetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/NetworkModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/SelectEngineModule.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/di/annotations.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/Car.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/Car.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/Driver.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/User.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/entity/contexts.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/utils/utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo/utils/utils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/activity_fragment_width.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/layout/fragment_simple.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/res/values-night/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hiltdemo/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hiltdemo/src/main/res/values/themes.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lifecycledemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lifecycledemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/livedatademo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/livedatademo/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/navigationdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/navigationdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigationdemo/src/androidTest/java/com/example/navigationdemo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/navigationdemo/src/test/java/com/example/navigationdemo/ExampleUnitTest.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/paging3demo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/paging3demo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/paging3demo/src/androidTest/java/com/example/paging3demo/ExampleInstrumentedTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/paging3demo/src/test/java/com/example/paging3demo/ExampleUnitTest.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/BindingActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/base/BindingActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/BindingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/base/BindingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/OneActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/base/OneActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base1/OneFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/base/OneFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/BindingActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/reflect/BindingActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/BindingFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/reflect/BindingFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/TwoActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/reflect/TwoActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base2/TwoFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/reflect/TwoFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/ThreeActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/delegate/ThreeActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/ThreeFragment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/delegate/ThreeFragment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/activityVewBindings.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/base3/fragmentViewBindings.kt" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/java/com/example/viewbindingdemo/encapsulation/delegate/fragmentViewBindings.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_one.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_one.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_three.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_three.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/viewbindingdemo/src/main/res/layout/activity_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/viewmodeldemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/viewmodeldemo/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workmanagerdemo/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/workmanagerdemo/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,25 +286,26 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Variables" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/hiltdemo/src/main/java/com/example/hiltdemo" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.17" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="project.structure.side.proportion" value="0.34390864" />
   </component>
   <component name="PsdUISettings">
     <option name="BUILD_VARIANTS_TAB" value="Build Types" />
     <option name="LAST_EDITED_BUILD_TYPE" value="release" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.1728576308">
+      <recent name="com.example.viewmodeldemo.simple" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyWorksapce\android\JetpackProject\hiltdemo\src\main\java\com\example\hiltdemo" />
       <recent name="D:\MyWorksapce\android\JetpackProject\viewbindingdemo\src\main\java\com\example\viewbindingdemo\base3" />
       <recent name="D:\MyWorksapce\android\JetpackProject\viewbindingdemo\src\main\java\com\example\viewbindingdemo\base2" />
       <recent name="D:\MyWorksapce\android\JetpackProject\viewbindingdemo\src\main\res\layout" />
       <recent name="D:\MyWorksapce\android\JetpackProject\viewbindingdemo\src\main\java\com\example\viewbindingdemo\base1" />
-      <recent name="D:\MyWorksapce\android\JetpackProject\viewbindingdemo\src\main\java\com\example\viewbindingdemo" />
     </key>
     <key name="android.template.-341914739">
       <recent name="com.example.viewmodeldemo" />
@@ -275,17 +324,10 @@
       <recent name="com.example.livedatademo.other" />
       <recent name="com.example.livedatademo.simple" />
     </key>
-    <key name="android.template.1408117943">
-      <recent name="com.example.lifecyclerdemo.advertising" />
-      <recent name="com.example.lifecyclerdemo.simple" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.hiltdemo.entity" />
       <recent name="com.example.hiltdemo.di" />
       <recent name="com.example.koindemo" />
-    </key>
-    <key name="android.template.17936582">
-      <recent name="com.example.hiltdemo" />
     </key>
     <key name="android.template.1108170901">
       <recent name="com.example.lifecyclerdemo" />
@@ -295,6 +337,9 @@
     </key>
     <key name="android.template.-31059733">
       <recent name="com.example.viewbindingdemo.base2" />
+    </key>
+    <key name="android.template.-1780062151">
+      <recent name="com.example.cameraxdemo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.example.viewbindingdemo.base" />
@@ -306,11 +351,11 @@
       <recent name="com.example.cameraxdemo.capture" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.example.hiltdemo.di" />
+      <recent name="com.example.hiltdemo.entity" />
+      <recent name="com.example.hiltdemo.base" />
       <recent name="com.example.livedatademo.problem" />
       <recent name="com.example.common.base" />
-      <recent name="com.example.viewmodeldemo.app_viewmodel" />
-      <recent name="com.example.lifecyclerdemo.advertising3" />
-      <recent name="com.example.lifecyclerdemo.simple" />
     </key>
     <key name="android.template.1994959786">
       <recent name="com.example.databindingdemo" />
@@ -320,14 +365,15 @@
     <key name="android.template.232302513">
       <recent name="com.example.livedatademo.problem" />
     </key>
-    <key name="android.template.-1780062151">
-      <recent name="com.example.cameraxdemo" />
+    <key name="android.template.17936582">
+      <recent name="com.example.hiltdemo" />
     </key>
-    <key name="android.template.1728576308">
-      <recent name="com.example.viewmodeldemo.simple" />
+    <key name="android.template.1408117943">
+      <recent name="com.example.lifecyclerdemo.advertising" />
+      <recent name="com.example.lifecyclerdemo.simple" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.viewbindingdemo">
+  <component name="RunManager" selected="Android App.hiltdemo">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -335,7 +381,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="appstartupdemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="appstartupdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.appstartupdemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -391,7 +437,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="cameraxdemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="cameraxdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.cameraxdemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -447,7 +493,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="datastoredemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="datastoredemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.datastoredemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -503,8 +549,64 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hiltdemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="hiltdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.hiltdemo" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hiltdemo2" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="JetpackProject.hiltdemo2" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -615,7 +717,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="livedatademo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="livedatademo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.livedatademo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -671,7 +773,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="navigationdemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="navigationdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.navigationdemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -783,7 +885,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="viewbindingdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="viewbindingdemo" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="JetpackProject.viewbindingdemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -895,7 +997,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="workmanagerdemo" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="workmanagerdemo" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="JetpackProject.workmanagerdemo" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -951,6 +1053,19 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CartKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="JetpackProject.hiltdemo2" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hiltdemo.test.CartKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Android App.hiltdemo" />
       <item itemvalue="Android App.livedatademo" />
@@ -963,7 +1078,14 @@
       <item itemvalue="Android App.paging3demo" />
       <item itemvalue="Android App.datastoredemo" />
       <item itemvalue="Android App.cameraxdemo" />
+      <item itemvalue="Android App.hiltdemo2" />
+      <item itemvalue="Application.CartKt" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CartKt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
@@ -1131,7 +1253,14 @@
       <option name="project" value="LOCAL" />
       <updated>1719477839653</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="update">
+      <created>1731657114228</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1731657114228</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -1194,62 +1323,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="477" y="266" key="#PSD" timestamp="1731653268028">
+    <state x="695" y="290" key="#PSD" timestamp="1739266535338">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="477" y="266" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1731653268028" />
-    <state x="1211" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1731655361715">
+    <state x="695" y="290" key="#PSD/0.0.1920.1040@0.0.1920.1040" timestamp="1739266535338" />
+    <state x="1258" y="253" key="#com.intellij.ide.util.MemberChooser" timestamp="1739265944067">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1211" y="465" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1731655361715" />
-    <state x="736" y="265" key="AndroidProcessChooserDialog" timestamp="1731654701412">
+    <state x="1258" y="253" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1739265944067" />
+    <state x="1009" y="143" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1739256812725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="265" key="AndroidProcessChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1731654701412" />
-    <state x="334" y="130" width="1402" height="804" key="DiffContextDialog" timestamp="1731653268358">
+    <state x="1009" y="143" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1739256812725" />
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1739254578139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="130" width="1402" height="804" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1731653268358" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1731653252847">
+    <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1739254578139" />
+    <state width="1541" height="446" key="GridCell.Tab.0.bottom" timestamp="1739267203628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1731653252847" />
-    <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1731656126680">
+    <state width="1541" height="446" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1739267203628" />
+    <state width="1541" height="446" key="GridCell.Tab.0.center" timestamp="1739267203628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1731656126680" />
-    <state width="1877" height="411" key="GridCell.Tab.0.center" timestamp="1731656126680">
+    <state width="1541" height="446" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1739267203628" />
+    <state width="1541" height="446" key="GridCell.Tab.0.left" timestamp="1739267203628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1731656126680" />
-    <state width="1877" height="411" key="GridCell.Tab.0.left" timestamp="1731656126680">
+    <state width="1541" height="446" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1739267203628" />
+    <state width="1541" height="446" key="GridCell.Tab.0.right" timestamp="1739267203628">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1731656126680" />
-    <state width="1877" height="411" key="GridCell.Tab.0.right" timestamp="1731656126680">
+    <state width="1541" height="446" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1739267203628" />
+    <state x="623" y="225" key="search.everywhere.popup" timestamp="1739263769182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1731656126680" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1731652273445">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1731652273445" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1731656878106">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1731656878106" />
-    <state x="544" y="239" width="891" height="594" key="find.popup" timestamp="1731656067413">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="544" y="239" width="891" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1731656067413" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1731654077108">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1731654077108" />
-    <state x="766" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1731656046359">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="766" y="233" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1731656046359" />
+    <state x="623" y="225" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1739263769182" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
